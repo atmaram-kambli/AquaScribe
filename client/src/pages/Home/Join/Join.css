@@ -1,0 +1,41 @@
+.join {
+    /* height:40vh; */
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--bg-color-light);
+    background: url(../../../assets/img/join.jpg) no-repeat center center/cover;
+}
+.join .left {
+    flex-basis: 70%;
+    display: grid;
+    gap: 20px;
+    color: white;
+}
+.join .left h1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+.join .right {
+    flex-basis: 30%;
+}
+.join .right button {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+    width: fit-content;
+}
+
+@media screen and (max-width: 992px) {
+    .join {
+        padding: 30px;
+        gap: 20px;
+        flex-direction: column;
+    }
+}

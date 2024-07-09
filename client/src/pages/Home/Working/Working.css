@@ -1,0 +1,77 @@
+.working {
+    padding: 40px 100px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-color-dark);
+    background: url(../../../assets/img/water.avif) no-repeat center center/cover;
+}
+.working .left {
+    padding: 30px 0;
+    text-align: start;
+    /* color: var(--primary-color); */
+    /* color: white; */
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    align-items: flex-start;
+}
+.working .left p {
+    font-size: 15px;
+    font-weight: 400;
+}
+.working .left p:first-child {
+    color: green;
+}
+.working .left h3 {
+    font-size: 34px;
+    margin-bottom: 24px;    
+    color: var(--primary-color);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #63de82;
+}
+.dashboard {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    width: fit-content;
+}
+
+.working .right {
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.working .right .video-container {
+    /* width: 70%; */
+    /* margin: auto ; */
+    /* height: 90%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .working {
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+    .working .left {
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .working .left p {
+        text-align: center;
+    }
+    .working .right video {
+        width: 350px;
+        height: 250px;
+    }
+}

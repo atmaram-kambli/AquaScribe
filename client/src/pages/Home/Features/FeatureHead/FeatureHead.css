@@ -1,0 +1,28 @@
+.panel-head {
+    flex-basis: 40%;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--primary-color);
+    border-right: 1px solid var(--primary-color);
+}
+
+.panel-head .domain-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.panel-head .plus-icon {
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 992px) {
+    .panel-head {
+        padding: 18px;
+    }
+}
