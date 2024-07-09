@@ -13,7 +13,7 @@ const Navbar = () => {
     <>
         <nav className="main-nav">
         <div className="navbar">
-            <Link to="/" className="link">
+            <Link to="/" className="link" onClick={()=>window.scrollTo({top:0, left:0, behavior:'smooth'})}>
             <div className="logo">
                 <img src={logo} alt="logo" width="64px" />
                 <h1>AquaScribe</h1>
