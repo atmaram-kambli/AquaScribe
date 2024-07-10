@@ -10,7 +10,7 @@ const Join = () => {
             <p>Ready to transform your agricultural practices with AquaScribe? Contact our team today to learn more about our solutions and how we can collaborate for a sustainable future.</p>
         </div>
         <div className="right">
-            <button ><Link to="/contact" onClick={()=>(window.scrollTo({top:0, left:0, behavior:"smooth"}))} className="link">Contact Us</Link></button>
+            <Link to="/contact" onClick={()=>(window.scrollTo({top:0, left:0, behavior:"smooth"}))} className="link"><button >Contact Us</button></Link>
         </div>
     </div>
   )
