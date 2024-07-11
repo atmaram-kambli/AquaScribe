@@ -1,8 +1,6 @@
 .about {
-    /* height: 60vh; */
     display: flex;
-    padding: 40px 100px;
-    background-color: var(--bg-color);
+    padding: 90px 100px;
     column-gap: 50px;
 }
 
@@ -24,6 +22,8 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    line-height: 1.6;
+    font-weight: 400;
 
 }
 .about .right h1 {
@@ -38,7 +38,8 @@
 
 @media screen and (max-width: 992px) {
     .about {
-        padding: 30px;
+        height: auto;
+        padding: 50px 30px;
         flex-direction: column;
     }
     .about .left img {

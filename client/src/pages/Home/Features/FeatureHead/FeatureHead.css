@@ -18,6 +18,8 @@
 
 .panel-head .plus-icon {
     cursor: pointer;
+    width: 40px;
+    height: 40px;
     color: var(--primary-color);
 }
 
