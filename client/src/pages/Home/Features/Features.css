@@ -2,7 +2,7 @@
     text-align: start;
     padding: 90px 100px;
     width: 100%;
-    background-color: white;
+    /* background-color: white; */
 }
 .features > p {
     color: var(--primary-color);

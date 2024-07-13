@@ -1,0 +1,15 @@
+.geoContainer {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    max-width: 500px;
+    text-align: center;
+    height: 250px;
+  }
+  
+ .mapContainer {
+  height: 100%;
+ }
+  

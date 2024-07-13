@@ -1,0 +1,13 @@
+.dashboard-main {
+    margin-top: 83px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-map-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
