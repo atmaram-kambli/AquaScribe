@@ -1,15 +1,28 @@
 .geoContainer {
     background: #f9f9f9;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     width: 50%;
     max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     text-align: center;
     height: 250px;
   }
   
  .mapContainer {
-  height: 100%;
+  height: 90%;
+  border-radius: 8px;
+}
+.iframe-box {
+  border-radius: 8px;
+}  
+
+ @media screen and (max-width: 576px) {
+  .geoContainer {
+    width: 96%;
+    margin: auto;
+  }
  }
-  

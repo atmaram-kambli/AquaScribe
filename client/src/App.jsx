@@ -5,7 +5,8 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Controls from './pages/Controls/Controls';
-import Contact from './pages/Contact/Contact';
+// import Contact from './pages/Contact/Contact';
+import AboutTeam from './pages/Contact/Contact';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/controls' element={<Controls />} />
-        <Route path='/contact' element={<Contact />} />
+        {/* <Route path='/contact' element={<Contact />} /> */}
+        <Route path='/team' element={<AboutTeam />} />
+        
       </Routes>
       <Footer />
     </BrowserRouter>

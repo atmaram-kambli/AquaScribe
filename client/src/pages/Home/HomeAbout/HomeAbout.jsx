@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomeAbout.css';
-import machine_photo from '../../../assets/img/machine.webp'
+import machine_photo from '../../../assets/img/aqua.jpg'
 
 const HomeAbout = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-// import './AboutTeam.css'; // Make sure to create appropriate CSS for styling
+import './aboutTeam.css'; // Make sure to create appropriate CSS for styling
 
 const teamMembers = [
   {

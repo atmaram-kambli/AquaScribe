@@ -25,13 +25,13 @@ const WeatherMap = () => {
               attribution='&copy; <a href="https://www.openweathermap.org/">OpenWeatherMap</a> contributors'
             />
           </Overlay>
-          <Overlay checked name="Temperature">
+          <Overlay name="Temperature">
             <TileLayer
               url={`https://tile.openweathermap.org/map/temp_new/{z}/{x}/{y}.png?appid=${API_KEY}`}
               attribution='&copy; <a href="https://www.openweathermap.org/">OpenWeatherMap</a> contributors'
             />
           </Overlay>
-          <Overlay name="Precipitation">
+          <Overlay checked name="Precipitation">
             <TileLayer
               url={`https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=${API_KEY}`}
               attribution='&copy; <a href="https://www.openweathermap.org/">OpenWeatherMap</a> contributors'

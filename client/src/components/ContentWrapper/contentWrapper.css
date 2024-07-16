@@ -2,5 +2,11 @@
     width: 90%;
     margin: auto;
     text-align: center;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
+
+/* @media screen and (max-width: 556px) {
+    .content-wrapper {
+        width: 100%;
+    }
+} */

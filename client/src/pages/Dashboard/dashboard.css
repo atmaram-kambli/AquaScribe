@@ -11,3 +11,12 @@
     gap: 30px;
     margin: 20px 0;
 }
+
+@media screen and (max-width: 556px) {
+    .dashboard-main {
+        flex-direction: row;
+    }
+    .weather-map-container {
+        flex-direction: column-reverse;
+    }
+}

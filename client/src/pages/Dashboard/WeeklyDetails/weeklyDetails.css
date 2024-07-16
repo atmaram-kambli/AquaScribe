@@ -44,3 +44,10 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 576px) {
+    .weekly-details-container {
+        width: 96%;
+        margin: auto;
+    }
+}

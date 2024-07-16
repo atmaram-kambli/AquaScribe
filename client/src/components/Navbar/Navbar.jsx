@@ -22,10 +22,10 @@ const Navbar = () => {
             </Link>
             <div className="menu-container">
                 {<ul className={`menu-index ${(window.innerWidth < 992 && toggleBtn)? "active":""}`}>
-                    <li><Link to="/" className="link">Home</Link></li>
-                    <li><Link to="/dashboard" className="link">Dashboard</Link></li>
-                    <li><Link to="/controls" className="link">Controls</Link></li>
-                    <li><Link to="/contact" className="link">Contact</Link></li>
+                    <li><Link  to="/" onClick={()=>window.scrollTo({top:0, left:0, behavior:'smooth'})} className="link"  >Home</Link></li>
+                    <li><Link  to="/dashboard" onClick={()=>window.scrollTo({top:0, left:0, behavior:'smooth'})} className="link"  >Dashboard</Link></li>
+                    <li><Link  to="/controls" onClick={()=>window.scrollTo({top:0, left:0, behavior:'smooth'})} className="link"  >Controls</Link></li>
+                    <li><Link  to="/team" onClick={()=>window.scrollTo({top:0, left:0, behavior:'smooth'})} className="link"  >Our Team</Link></li>
                 </ul> }
             </div>
             <div className="menu-btn" onClick={showToggleBTN}>

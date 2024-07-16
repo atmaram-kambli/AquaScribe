@@ -11,18 +11,20 @@
     height: 400px;
     width: 700px;
     /* max-width: 600px; */
-    min-width: 350px;
+    min-width: 300px;
 }
 
 
-/* .leaflet-container {
-    width: 80%;
-    height: 500px;
-    margin: 0 auto;
-  }
-   */
+.leaflet-top, .leaflet-bottom {
+  z-index: 999;
+  text-align: justify;
+}
 
-  .leaflet-top, .leaflet-bottom {
-    z-index: 999;
-    text-align: justify;
+@media screen and (max-width: 576px) {
+  .weather-map {
+    width: 96%;
+    height: 300px;
+    margin: auto;
   }
+  
+}

@@ -44,31 +44,12 @@ const Dashboard = () => {
       <div className="weather-map-container">
         <WeatherDetails />
         <GeoLocation geoDetails={geoDetails} />
-
       </div>
       <div className="weather-map-container">
         <WeeklyDetails />
         <WeatherMap/>
-
       </div>
-      {/* <div className="weather-api-data" style={weatherDataStyle}> */}
-      {/* <ShowTemperature temperature={39} icon={null} /> */}
-      {/* <WeatherDetails
-        condition={weatherDetails.condition}
-        humidity={weatherDetails.humidity}
-        windSpeed={weatherDetails.windSpeed}
-        minTemp={weatherDetails.minTemp}
-        maxTemp={weatherDetails.maxTemp}
-        sunrise={weatherDetails.sunrise}
-        sunset={weatherDetails.sunset}
-      /> */}
-      {/* <GeoLocation
-        city={geoDetails.city}
-        latitude={geoDetails.latitude}
-        longitude={geoDetails.longitude}
-      /> */}
-      {/* </div> */}
-      {/* <WeeklyForecast /> */}
+      
     </ContentWrapper>
 
     </div>

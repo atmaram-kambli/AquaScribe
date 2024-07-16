@@ -5,8 +5,17 @@
     align-items: center;
     min-height: 60px;
     margin: 10px 0;
-    font-family: "Playfair Display", serif;
 }
 .dashboard-header h2 {
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 576px) {
+    .dashboard-header h2 {
+        font-size: 20px;
+        text-transform: none;
+    }
+    .dashboard-header div {
+        font-size: 12px;
+    }
 }
